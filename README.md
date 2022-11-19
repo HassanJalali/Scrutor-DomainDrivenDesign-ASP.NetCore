@@ -41,3 +41,4 @@ services.AddTransient<Service2>();
 services.AddTransient<Service>();
 services.AddTransient<Foo>();
 ```
+
