@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>preview</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Production.Framework.ApplicationService\Production.Framework.ApplicationService.csproj" />
+    <ProjectReference Include="..\Production.Framework.AssemblyHelper\Production.Framework.AssemblyHelper.csproj" />
+    <ProjectReference Include="..\Production.Framework.Core\Production.Framework.Core.csproj" />
+  </ItemGroup>
+
+</Project>

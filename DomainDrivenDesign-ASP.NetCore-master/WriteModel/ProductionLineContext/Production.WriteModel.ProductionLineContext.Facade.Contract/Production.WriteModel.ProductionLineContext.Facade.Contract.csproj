@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>preview</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Framework\Production.Framework.Core\Production.Framework.Core.csproj" />
+    <ProjectReference Include="..\Production.WriteModel.ProductionLineContext.AppSer.Contract\Production.WriteModel.ProductionLineContext.AppSer.Contract.csproj" />
+  </ItemGroup>
+
+</Project>
