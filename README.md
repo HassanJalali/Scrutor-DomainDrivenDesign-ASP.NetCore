@@ -41,4 +41,5 @@ services.AddTransient<Service2>();
 services.AddTransient<Service>();
 services.AddTransient<Foo>();
 ```
-
+**for more datail Click:**
+https://andrewlock.net/using-scrutor-to-automatically-register-your-services-with-the-asp-net-core-di-container/
